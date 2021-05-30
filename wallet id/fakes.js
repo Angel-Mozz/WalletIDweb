@@ -16,12 +16,29 @@ let total = 0;
 
 // Tiene un delay de 1.2 segundos, para que se ves más real
 document.querySelector('button').addEventListener('click', () =>{
+
+    if(document.querySelector("input").value == ""){
+        document.querySelector("input").placeholder = "Enter valid URL";
+        return;
+    }
  
     setTimeout(() => {
         total += listaDeFakes[index];
         document.getElementById("printTotal").innerHTML = total;
         console
         index = ++index%listaDeFakes.length;
+        document.querySelector("input").value = "";
+        document.querySelector("input").placeholder = "Type the URL";
 
     }, 1000);
+});
+
+document.getElementById("back").addEventListener('click', () => {
+        document.getElementById("front").className = "";
+        document.getElementById("back").className = "active";
+});
+
+document.getElementById("front").addEventListener('click', () => {
+    document.getElementById("back").className = "";
+    document.getElementById("front").className = "active";
 });
