@@ -1,0 +1,135 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background-image: url(money.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: lighten;
+    background-position: center;
+}
+
+.center{
+    float: center;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 275px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(2,87,122);
+}
+
+.subtitle{
+    float: center;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.URL {
+    padding-top: 50px;
+    padding-left: 450px;
+    float: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+}
+
+.URL input[type=text]{
+    border: 2px solid rgb(2,87,122);
+    border-radius: 4px;
+    background-size: 40px ;
+    background-repeat: no-repeat;  
+
+}
+
+.URL input[type=submit]{
+    background-color:rgb(2,87,122) ;
+    border: none;
+    cursor: pointer;
+    color: white;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 50px;
+    height: 30px;
+    
+    
+    
+}
+
+.URL input[value=submit]{
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.total{
+    font-family: "Roboto", sans-serif;
+    color: rgb(2,87,122) ;
+    font-size: 30px;
+    padding-left: 500px;
+    padding-bottom: 50px;
+}
+
+.total input[type=text]{
+    border: 2px solid rgb(2,87,122);
+    border-radius: 4px;
+    background-size: 40px ;
+    background-repeat: no-repeat;  
+}
+
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    
+    
+}
+
+.main-nav li{
+   
+    display: inline-block;
+    
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a {
+    border: 2px solid white;
+}
+
+.main-nav li a:hover {
+    border: 2px solid white;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bottom {
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: rgb(2,87,122);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    
+
+
+}
